@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    overflow-x:hidden;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #FCFCFC !important;
+}
+
+a {
+    text-decoration: none !important;
+    transition: 0.2s;
+}
+
+*,*:focus,*:hover{
+    outline:none;
+}
+
+.btn {
+    color:#fff !important;
+}
+
+.btn.bg-primary:hover {
+    background-color:$secondary !important;
+}
+.btn.bg-secondary:hover {
+    background-color:$primary !important;
+}
+img {
+    max-width:100%;
+}
+
+ul { 
+    list-style:none;
+}
+
+*,*:focus,*:hover{
+    outline:none;
+}
